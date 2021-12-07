@@ -1,0 +1,2 @@
+client_get anime.jpg
+client_post hello.txt
