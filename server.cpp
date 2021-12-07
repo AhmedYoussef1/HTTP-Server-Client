@@ -106,6 +106,7 @@ int main(int argc, char **argv)
         } else {
             string res = HTTP_SERVER_BUSY + "\r\n";
             send(new_fd, &res[0], res.length(), 0);
+            close(new_fd);
         }
     }
 
